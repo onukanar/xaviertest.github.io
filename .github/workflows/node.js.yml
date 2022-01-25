@@ -4,4 +4,5 @@
 name: Node.js CI
 
     - install: npm install
+    - install: npm i svelte-kit dev
     - run: npm run dev
