@@ -1,0 +1,5 @@
+    - name: npm install, build, and dev
+      run: |
+        npm ci
+        npm run dev
+        npm start & npx wait-on http://localhost:3000
